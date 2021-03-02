@@ -54,8 +54,7 @@ def Fowardprimer(string):
     return (result)
 
 def Reverseprimer(string):
-    result = ''
-    reversedResult = ''
+    result = ""
     for x in string:
         if x == 'A':
             result = result + 'T'
@@ -65,23 +64,15 @@ def Reverseprimer(string):
             result = result + 'G'
         if x == 'T':
             result = result + 'A'
+    result =  result + " '5"
     reversedResult = result[::-1]
-    result = ''
-    result =   "5' "  
-    for x in reversedResult:
-        if x == 'A':
-            result = result +  'A' 
-        if x == 'G':
-            result = result +  'G' 
-        if x == 'C':
-            result = result +  'C' 
-        if x == 'T':
-            result = result +  'T' 
-    result = result + " 3'"  
-    return (result)
+    reversedResult = reversedResult + " 3'"  
+    print(reversedResult)
+    return (reversedResult)
 
 def main(string):
     #linkStrengtFunction(string)
     #print("Foward primer " + Fowardprimer(string))
     #print("Reverse primer " + Reverseprimer(string))
     #print("linkStrengtFunction " + linkStrengtFunction(string))
+    pass
