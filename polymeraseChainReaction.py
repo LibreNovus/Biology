@@ -67,7 +67,6 @@ def Reverseprimer(string):
     result =  result + " '5"
     reversedResult = result[::-1]
     reversedResult = reversedResult + " 3'"  
-    print(reversedResult)
     return (reversedResult)
 
 def main(string):
