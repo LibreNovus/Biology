@@ -6,7 +6,7 @@ from color import colors
 
 Fowardprimer("AAGCTGGTTTTGACGAC")
 
-def test_sum():
+def function_tests():
     print("===Function tests===")
     if Fowardprimer("AAGCTGGTTTTGACGAC") == "5' TTCGACCAAAACTGCTG 3'" and Fowardprimer("CGTTACGTGATGCTAAGCTA") == "5' GCAATGCACTACGATTCGAT 3'":
         print("1. Fowardprimer" + colors.BLUE + " Passed" + colors.ENDC)
@@ -19,4 +19,4 @@ def test_sum():
         print("2. Reverseprimer" + colors.RED + " Failed" + colors.ENDC)
 
 if __name__ == "__main__":
-    test_sum()
+    function_tests()
