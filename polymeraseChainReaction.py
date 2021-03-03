@@ -1,6 +1,8 @@
 ﻿#DNA
 
-#De4 Kvælstof baser
+#https://www.youtube.com/watch?v=7beN35g5xuM
+
+#De fire Kvælstof baser
 #1 Adenine  (A)
 #2 Thymine  (T)
 #3 Cytosine (C)
